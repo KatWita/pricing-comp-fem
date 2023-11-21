@@ -6,6 +6,7 @@ input[type='range']::-moz-range-thumb {
 	background-image: url(../images/icon-slider.svg);
 	background-repeat: no-repeat;
 	background-position: 50%;
+	border: none;
 	border-radius: 50%;
 	-webkit-appearance: none;
 	appearance: none;
@@ -33,6 +34,7 @@ input[type='range']::-ms-thumb {
 	background-image: url(../images/icon-slider.svg);
 	background-repeat: no-repeat;
 	background-position: 50%;
+	border: none;
 	border-radius: 50%;
 	-webkit-appearance: none;
 	appearance: none;
