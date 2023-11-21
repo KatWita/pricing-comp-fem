@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Interactive pricing component</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <main class="main">
+    <header class="header">
+      <img src="./images/pattern-circles.svg" class="header__img">
+      <h1 class="header__headline">Simple, traffic-based pricing</h1>
+      <p class="header__text">Sign-up for our 30-day trial. No credit card required.</p>
+    </header>
+
+    <section class="pricing">
+      <div class="pricing__grid">
+        <h3 class="pricing__headline">100k pageviews</h3>
+        <input type="range" name="slider" class="pricing__slider" value="50" min="0" max="100">
+        <div class="pricing__price-box">
+          <p class="pricing__price">$16.00</p>
+          <p class="pricing__per">/ month</p>
+        </div>
+      </div>
+      <div class="billing">
+        <p class="billing__text">monthly billing</p>
+        <button class="billing__btn" type="button"></button>
+        <div class="billing__yearly-box">
+          <p class="billing__text">yearly billing</p>
+          <p class="billing__discount billing__discount--mobile">-25%</p>
+          <p class="billing__discount billing__discount--desktop">-25% discount</p>
+        </div>
+      </div>
+      <div class="pricing__line"></div>
+      <div class="footer">
+        <ul class="footer__list">
+          <li class="footer__list-item">Unlimited websites</li>
+          <li class="footer__list-item">100% data ownership</li>
+          <li class="footer__list-item">Email reports</li>
+        </ul>
+        <button class="footer__btn" type="button">Start my trial</button>
+      </div>
+    </section>
+  </main>
+
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
